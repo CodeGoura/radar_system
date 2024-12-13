@@ -49,7 +49,7 @@ A simple and functional radar system using **Arduino Uno R3**, an ultrasonic sen
 ### 1. Code for Arduino
 1. Clone this repository:
    ```bash
-   git clone [clone](https://github.com/CodeGoura/radar_system.git)
+   (https://github.com/CodeGoura/radar_system.git)
    ```
 2. Open `radar2.ino` in Arduino IDE.
 3. Upload the code to your Arduino Uno R3.
@@ -70,13 +70,13 @@ A simple and functional radar system using **Arduino Uno R3**, an ultrasonic sen
 
 ## Code Overview
 
-### Arduino Code (`radar_system.ino`)
+### Arduino Code (`radar2.ino`)
 - Sends a trigger pulse to the ultrasonic sensor.
 - Reads the echo pulse to calculate distance.
 - Controls the servo motor to rotate step by step for scanning.
 - Sends distance data to the Processing sketch via serial communication.
 
-### Processing Code (`radar_visualization.pde`)
+### Processing Code (`radarprocessing.pde`)
 - Reads data from the serial port.
 - Maps distance data to radar visualization coordinates.
 - Displays real-time radar-like animation.
